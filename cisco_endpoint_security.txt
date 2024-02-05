@@ -1,0 +1,14 @@
+Module 06: Network Security Infrastructure
+
+Common designs for firewall implementation are: 
+ - Private and Public: it involves defining a public (untrusted) network and a private (trusted) network. Traffic from the private network is permitted and inspected
+as it flows to the public network. Traffic from the public network associated with traffic that has its origin in the private network is inspected and allowed. Traffic originating 
+on the public network with no relation to private network requests is dropped. It is the simplest firewall implementation design.
+
+ - Demilitarized zones: it is a design that usually has one interface as the "protected" private network and another interface more "exposed" to the public networks. The traffic between
+the private network and the DMZ is highly restricted when going to the private network, and the same happens between the private and the public networks, while traffic going from the 
+private network to the DMZ and public networks is permitted. Traffic between the DMZ and the public networks is filtered, but allowed. This architecture is more advanced and secure than
+the private and public but still lacks segmentation of the network. Some variants of this model are used on companies that have servers/products that need to be exposed to the internet 
+while still maintaining the private network isolated.
+
+Zone-Based Policy: 
