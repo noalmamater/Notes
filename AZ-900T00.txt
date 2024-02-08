@@ -9,3 +9,4 @@ Public cloud: built, maintained and controlled by a third party.
 Hybrid cloud: an environment that uses both public and private clouds in an inter-connected environment.
 Multi-cloud: it is the use of services of public cloud from different cloud providers.
 
+Cloud computing operates on a consumption-based model. You only pay for what you use. This is great because you don't need to worry about 
