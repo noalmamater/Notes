@@ -27,3 +27,33 @@ Module 07: Windows Operating System
  - Netstat: the netstat command can display all active connections on the computer. This can be used to look for unauthorized connections 
  - Event Viewer: logs the history of application, security, and system events. These log files are a valuable troubleshooting tool because they provide information necessary to identify a problem.
  - Local security policy: In most networks that use Windows computers, Active Directory is configured with Domains on a Windows Server
+
+Module 08: Linux Overview
+
+ * 8.1 Linux Basics: A little introduction on Linux history
+ * 8.2 Linux Shell: basic shell commands
+ * 8.3 Linux Servers: servers, services, and their ports (listing the most common ports and their "common" services)
+ * 8.4 In terms of configuration files, it is important to maintain the privileges of writing and executing only to admins with root account access. In some cases, even visualization should be restricted for non-root users, as it could offer the chance for an attacker to check how the service running is configured and exploit some vulnerability. The following are basic best practices for device hardening:
+
+ - Ensure physical security
+ - Minimize installed packages
+ - Disable unused services
+ - Use SSH and disable the root account login over SSH
+ - Keep the system updated
+ - Disable USB auto-detection
+ - Enforce strong passwords
+ - Force periodic password changes
+ - Keep users from re-using old passwords
+
+In the same way, it is important to keep a look at the system logs. In Linux, log files can be categorized as:
+
+ - Application logs
+ - Event logs
+ - Service logs
+ - System logs
+
+ * 8.5 Linux File System: Introduction to the most common types of file systems in Linux. After that, an explanation of file permissions: how to change permissions, how the owner of the file is the only one (excluding the root) that can change file permissions and the importance of the root user, as it can make modifications on all the files of the system.
+ * 8.7 Working on a Linux Host: Use of packet managers, updating system packages. Processes and Forks: fork is a method that the kernel uses to allow a process to create a copy of itself. When a process calls a fork, the caller process becomes the parent process, with the newly created process referred to as its child. After the fork, the processes are, to some extent, independent processes; they have different process IDs but run the same program code.
+
+Module 09: System and Endpoint Protection
+
