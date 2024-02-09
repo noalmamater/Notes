@@ -4,9 +4,9 @@ Shared responsibility model: this model is used on cloud services and states tha
 on the service you are using on the cloud, although the information, data, accounts, and identities are always under consumer responsibility, and security, maintenance and all other services related to the physical space 
 and datacenters are always under the cloud provider's responsibility. The service model will determine responsibility for things like Operating systems, Network controls and Applications.
 
-Private cloud: used by a single entity. The entity has more control over it, but has to absorb a greater cost.
-Public cloud: built, maintained and controlled by a third party.
+Private cloud: used by a single entity. The entity has more control over it but has to absorb a greater cost.
+Public cloud: built, maintained, and controlled by a third party.
 Hybrid cloud: an environment that uses both public and private clouds in an inter-connected environment.
 Multi-cloud: it is the use of services of public cloud from different cloud providers.
 
-Cloud computing operates on a consumption-based model. You only pay for what you use. This is great because you don't need to worry about 
+Cloud computing operates on a consumption-based model. You only pay for what you use. This is great because you can adapt your infrastructure accordingly to your needs at the moment.
