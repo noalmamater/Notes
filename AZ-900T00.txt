@@ -164,3 +164,32 @@ Zero Trust is a security model that assumes the worst case scenario and protects
 
 Defender for Cloud is a monitoring tool for security posture management and threat protection. It monitors your cloud, on-premises, hybrid, and multi-cloud environments to provide guidance and notifications aimed at strengthening your security posture. Because Defender for Cloud is an Azure-native service, many Azure services are monitored and protected without needing any deployment. However, if you also have an on-premises datacenter or are also operating in another cloud environment, monitoring of Azure services may not give you a complete picture of your security situation. When necessary, Defender for Cloud can automatically deploy a Log Analytics agent to gather security-related data. For Azure machines, deployment is handled directly. For hybrid and multi-cloud environments, Microsoft Defender plans are extended to non Azure machines with the help of Azure Arc. Cloud security posture management (CSPM) features are extended to multi-cloud machines without the need for any agents.
 
+Microsoft Purview is a family of data governance, risk, and compliance solutions that helps you get a single, unified view into your data. Microsoft Purview brings insights about your on-premises, multicloud, and software-as-a-service data together. Microsoft Purview has robust, unified data governance solutions that help manage your on-premises, multicloud, and software as a service data. Microsoft Purview’s robust data governance capabilities enable you to manage your data stored in Azure, SQL and Hive databases, locally, and even in other clouds like Amazon S3.
+
+Microsoft Purview’s unified data governance helps your organization:
+ - Create an up-to-date map of your entire data estate that includes data classification and end-to-end lineage.
+ - Identify where sensitive data is stored in your estate.
+ - Create a secure environment for data consumers to find valuable data.
+ - Generate insights about how your data is stored and used.
+ - Manage access to the data in your estate securely and at scale.
+
+Azure Policy enables you to define both individual policies and groups of related policies, known as initiatives. Azure Policy evaluates your resources and highlights resources that aren't compliant with the policies you've created. Azure Policy can also prevent noncompliant resources from being created.
+
+A resource lock prevents resources from being accidentally deleted or changed. Even with Azure role-based access control (Azure RBAC) policies in place, there's still a risk that people with the right level of access could delete critical cloud resources. Resource locks prevent resources from being deleted or updated, depending on the type of lock. Resource locks can be applied to individual resources, resource groups, or even an entire subscription. Resource locks are inherited, meaning that if you place a resource lock on a resource group, all of the resources within the resource group will also have the resource lock applied.
+
+Azure Cloud Shell is a browser-based shell tool that allows you to create, configure, and manage Azure resources using a shell. Azure Cloud Shell support both Azure PowerShell and the Azure Command Line Interface (CLI), which is a Bash shell.
+
+In utilizing Azure Resource Manager (ARM), Azure Arc lets you extend your Azure compliance and monitoring to your hybrid and multi-cloud configurations. Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform. Azure Arc provides a centralized, unified way to:
+ - Manage your entire environment together by projecting your existing non-Azure resources into ARM.
+ - Manage multi-cloud and hybrid virtual machines, Kubernetes clusters, and databases as if they are running in Azure.
+ - Use familiar Azure services and management capabilities, regardless of where they live.
+ - Continue using traditional ITOps while introducing DevOps practices to support new cloud and native patterns in your environment.
+ - Configure custom locations as an abstraction layer on top of Azure Arc-enabled Kubernetes clusters and cluster extensions.
+
+Azure Arc allows you to manage the following resource types hosted outside of Azure:
+ - Servers
+ - Kubernetes clusters
+ - Azure data services
+ - SQL Server
+ - Virtual machines (preview)
+
