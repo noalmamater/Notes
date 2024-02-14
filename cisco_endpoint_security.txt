@@ -81,4 +81,10 @@ Module 09: System and Endpoint Protection
 
  * Boot integrity: Boot integrity ensures that the system can be trusted and has not been altered while the operating system loads.
  - Secure Boot: Secure Boot is a security standard to ensure that a device boots using trusted software. When a computer system boots, the firmware checks the signature of each piece of boot software.
- - Measured Boot provides stronger validation than Secure Boot. Measured Boot measures each component starting with the firmware through to the boot start drivers, and stores the measurements in the TMP chip to create a log. The log can be tested remotely to verify the boot state of the client. Measured Boot can identify untrusted applications trying to load, and it also allows antimalware to load earlier.
+ - Measured Boot: Measured Boot provides stronger validation than Secure Boot. Measured Boot measures each component starting with the firmware through to the boot start drivers, and stores the measurements in the TMP chip to create a log. The log can be tested remotely to verify the boot state of the client. Measured Boot can identify untrusted applications trying to load, and it also allows antimalware to load earlier.
+
+ * Physical protection:
+ - To physically protect computer equipment: use cable locks to secure devices, keep telecommunication rooms locked, and use security cages (Faraday cages) around equipment to block electromagnetic fields.
+ - Door locks
+ - RFID systems
+
