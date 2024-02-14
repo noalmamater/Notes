@@ -56,4 +56,29 @@ In the same way, it is important to keep a look at the system logs. In Linux, lo
  * 8.7 Working on a Linux Host: Use of packet managers, updating system packages. Processes and Forks: fork is a method that the kernel uses to allow a process to create a copy of itself. When a process calls a fork, the caller process becomes the parent process, with the newly created process referred to as its child. After the fork, the processes are, to some extent, independent processes; they have different process IDs but run the same program code.
 
 Module 09: System and Endpoint Protection
+ * 9.1 Operation system security: what an organization can do to harden the OS? 
+ - hire a good administrator
+ - plan for the installation of updates and patches
+ - establish a baseline to compare how a system is performing against baseline expectations
 
+ * To be cautious:
+ - rogue antivirus solutions
+ - fileless attacks
+ - scripts can contain malware
+ - unapproved software
+
+ * Patch management
+ - As well as securing the operating system, it’s important to update third-party applications such as Adobe Acrobat, Java and Chrome
+
+ * Endpoint security
+ - host-based firewall: A host-based firewall runs on a device to restrict incoming and outgoing network activity for that device.
+ - HIDS: monitors system calls and file system access to detect malicious requests. It can also monitor configuration information about the device held in the system registry.
+ - HIPS: does the same as the HIDS, but with the possibility of resetting a connection or dropping the packets
+ - EDR: Endpoint Detection and Response is an integrated security solution that continuously monitors and collects data from an endpoint device. It then analyzes the data and responds to any threats it detects. An antivirus can only block against threats, while EDR can do that and find threats on the device.
+ - DLP: tools that provide a centralized way to ensure that sensitive data is not lost, misused or accessed by unauthorized users.
+
+ * Host encryption: The Windows Encrypting File System (EFS) feature allows users to encrypt files, folders or an entire hard drive. Full disk encryption (FDE) encrypts the entire contents of a drive (including temporary files and memory). Microsoft Windows uses BitLocker for FDE.
+
+ * Boot integrity: Boot integrity ensures that the system can be trusted and has not been altered while the operating system loads.
+ - Secure Boot: Secure Boot is a security standard to ensure that a device boots using trusted software. When a computer system boots, the firmware checks the signature of each piece of boot software.
+ - Measured Boot provides stronger validation than Secure Boot. Measured Boot measures each component starting with the firmware through to the boot start drivers, and stores the measurements in the TMP chip to create a log. The log can be tested remotely to verify the boot state of the client. Measured Boot can identify untrusted applications trying to load, and it also allows antimalware to load earlier.
