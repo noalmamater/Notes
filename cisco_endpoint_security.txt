@@ -88,3 +88,21 @@ Module 09: System and Endpoint Protection
  - Door locks
  - RFID systems
 
+ * 9.2 Anti-malware protection
+Many attacks originate from the inside of the network, so securing the internal network is as important as securing the perimeter. One host infected may cause havoc on the LAN.
+
+ * Host-based antivirus: software installed on a host to detect malware. Antimalware programs may detect viruses using three different approaches:
+ - Signature-based - This approach recognizes various characteristics of known malware files.
+ - Heuristics-based - This approach recognizes general features shared by various types of malware.
+ - Behavior-based - This approach employs analysis of suspicious behavior.
+
+ * host-based firewall
+ * host-based Security Suits: host-based security suites include antivirus, anti-phishing, safe browsing, Host-based intrusion prevention system, and firewall capabilities. These various security measures provide a layered defense that will protect against most common threats.
+
+9.4 Application Security
+ - attack surface is the total sum of the vulnerabilities in a given system that is accessible to an attacker.
+ - The attack surface is continuing to expand. More devices are connecting to networks through the Internet of Things (IoT) and Bring Your Own Device (BYOD).
+
+ * Application Block and Allow Lists
+Application blocklists can dictate which user applications are not permitted to run on a computer. Similarly, allow lists can specify which programs are allowed to run, as shown in the figure. In this way, known vulnerable applications can be prevented from creating vulnerabilities on network hosts.
+
