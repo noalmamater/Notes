@@ -106,3 +106,68 @@ Many attacks originate from the inside of the network, so securing the internal 
  * Application Block and Allow Lists
 Application blocklists can dictate which user applications are not permitted to run on a computer. Similarly, allow lists can specify which programs are allowed to run, as shown in the figure. In this way, known vulnerable applications can be prevented from creating vulnerabilities on network hosts.
 
+Module 10:
+cybersecurity cube:
+ - 1. Security Principles
+The first dimension of the cybersecurity cube identifies the goals to protect cyberspace. The foundational principles of confidentiality, integrity and availability of data provide a focus which enables the cybersecurity expert to prioritize actions when protecting any networked system.
+    Data confidentiality prevents the disclosure of information to unauthorized people, resources, or processes.
+    Data integrity refers to the accuracy, consistency, and trustworthiness of data.
+    Data availability ensures that information is accessible by authorized users when needed.
+ - 2. Data States
+The cyberspace domain contains a considerable amount of critically important data. But in what state? The second dimension of the cybersecurity cube represents the three possible data states:
+	Data in transit.
+	Data at rest or in storage.
+	Data in process
+ - 3. Safeguards
+The third dimension of the cybersecurity cube defines the pillars on which we need to base our cybersecurity defenses in order to protect data and infrastructure in the digital realm. These are technology, policy and practices, and improving education, training and awareness in people.
+
+ * Data Integrity
+This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text.
+Integrity is the accuracy, consistency, and trustworthiness of data across its entire lifecycle. Data undergoes several operations, such as capture, storage, retrieval, update, and transfer. Data must remain unaltered by unauthorized entities during all these operations. Methods used to ensure data integrity include hashing, data validation checks, data consistency checks, and access controls. Data integrity systems can include one or more of these methods.
+
+ * Availability
+Availability refers to the need to maintain the availability of information whenever is needed. Cyberattacks and natural disasters are some of the possible causes for data to become unavailable.
+
+ * Data at Rest
+‘Data at rest’ refers to data that is in storage. Simply put, it is the state data is in when no user or process is accessing, requesting or amending it.
+
+ * Data in Transit
+Data in transit is the second state of data we are going to look at, referring simply to data which is being transmitted
+Cybersecurity professionals must take steps to safeguard data in transit, such as implementing VPNs, using SSL and IPsec, and various other methods of encrypting data for transmission.
+Cybersecurity professionals deploy data integrity systems that test the integrity and authenticity of transmitted data to counter these actions. These systems include, for example, hashing and data redundancy.
+
+ * Data in Process
+Data in process refers to data during initial input, modification, computation or output.
+
+10.3 Cybersecurity countermeasures:
+
+ * Hardware-Based and Software-Based Technologies
+software-based: software firewalls, network and port scanners, protocol analyzers, vulnerability scanners, HIDS
+hardware-based: firewalls, proxy servers, hardware-based access controls, network switches
+
+ * Establishing a Culture of Cybersecurity Awareness
+Education and training
+ - Make security awareness training a part of an organization’s onboarding process.
+Security awareness programs
+An active security awareness program depends on:
+ - The organization's environment and network.
+ - The level of threat.
+ - The nature and demands of the data the organization holds.
+
+ * Policies
+A security policy sets out the security objectives, rules of behavior and system requirements to be adhered to. Security policies inform users, staff and managers of the organization’s requirements, which protect technology and information assets. A security policy also specifies the mechanisms needed to meet security requirements. Some policies common to take place on organizations are:
+ - identification and authentication policies
+ - password policies
+ - acceptable use policies
+ - remote access policies
+ - network maintenance policies
+ - incident handling policies
+
+ * Standards
+Standards help IT staff maintain consistency in operating the network.
+
+ * Guidelines
+Guidelines are a list of suggestions on how to do things more efficiently and securely. They are similar to standards but are more flexible and are not usually mandatory.
+
+ * Procedures
+Procedure documents are longer and more detailed than standards and guidelines. They include implementation details that usually contain step-by-step instructions and graphics.
